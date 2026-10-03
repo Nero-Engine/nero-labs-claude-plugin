@@ -52,6 +52,8 @@ The plugin itself stores nothing and contains no code: it is instructions (skill
   - Every other Actor (filter, clean, join, pivot, diff, OCR, PDF, screenshots, downloads, upscaling) does its work inside the Apify run with no other outside service.
 - Nero Labs, the publisher, receives the usual Apify developer statistics (run counts and charges), not your data.
 
+Full privacy policy: [PRIVACY.md](PRIVACY.md).
+
 ## Support
 
 Open an issue on any Actor's **Issues** tab on Apify (for example https://apify.com/nerolabs/dataset-filter-transform/issues), or on this repository.
