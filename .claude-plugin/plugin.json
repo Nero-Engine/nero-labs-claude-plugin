@@ -8,6 +8,7 @@
     "url": "https://apify.com/nerolabs"
   },
   "homepage": "https://apify.com/nerolabs",
+  "privacyPolicyUrl": "https://github.com/Nero-Engine/nero-labs-claude-plugin/blob/main/PRIVACY.md",
   "repository": "https://github.com/Nero-Engine/nero-labs-claude-plugin",
   "license": "MIT",
   "keywords": [
