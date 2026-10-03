@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nero-labs": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?tools=nerolabs/dataset-filter-transform,nerolabs/dataset-cleaner-exporter,nerolabs/dataset-join-merge,nerolabs/dataset-aggregate-pivot,nerolabs/dataset-diff-detector,nerolabs/bulk-ocr-image-pdf-to-text,nerolabs/dataset-pdf-extract,nerolabs/bulk-website-screenshots,nerolabs/dataset-to-rest-api,nerolabs/bulk-file-downloader,nerolabs/bulk-transcription,nerolabs/bulk-pagespeed-checker,nerolabs/bulk-image-upscaler,nerolabs/call-score"
+    }
+  }
+}
