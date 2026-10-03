@@ -1,6 +1,6 @@
 # Privacy policy: Nero Labs Data Tools plugin
 
-Last updated: 3 October 2026
+Last updated: 3 October 2026 (version 1.1.0)
 
 This policy covers the Nero Labs Data Tools plugin for Claude. The plugin is published by Nero Engine Group Ltd, trading as Nero Labs, registered in England and Wales (company number 16521432), registered office 66 Paul Street, London, EC2A 4NA. We are registered with the Information Commissioner's Office under number ZB914271. Contact: founder@neroengine.com.
 
@@ -17,8 +17,11 @@ Some Actors pass your data to one outside service to do their job:
 - Bulk Transcription and Call Score send the audio of the recordings you supply to OpenAI (api.openai.com) for transcription and review. OpenAI does not use API data to train its models by default.
 - Bulk PageSpeed & Lighthouse Checker sends each page address to Google's PageSpeed Insights API.
 - HTTP Request Sender sends your rows to the API address you choose.
+- Dataset to Postgres, Supabase & MySQL writes your rows into the database you choose.
+- Dataset AI Enrichment, and the Chart Generator's optional summary, send row text to AI models through Apify's OpenRouter Actor.
+- The company, registry and monitor tools query the public sources named in the README (for example Companies House, The Gazette, SEC EDGAR, Amazon or USCIS), sometimes through Apify's proxy.
 
-Every other tool does its work inside the Apify run.
+The remaining tools do their work inside the Apify run, apart from reading the links, websites and domains you give them.
 
 ## What Nero Labs sees
 
