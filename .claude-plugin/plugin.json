@@ -1,0 +1,25 @@
+{
+  "name": "nero-labs",
+  "displayName": "Nero Labs Data Tools",
+  "version": "1.0.0",
+  "description": "Bulk jobs on spreadsheets, Google Sheets and Apify datasets: filter, clean, dedupe, join, pivot and find new rows; OCR and PDF text; website screenshots and speed checks; transcribe and score calls; download and upscale images; send rows to any API. Runs on Nero Labs Apify Actors, paid per result.",
+  "author": {
+    "name": "Nero Labs",
+    "url": "https://apify.com/nerolabs"
+  },
+  "homepage": "https://apify.com/nerolabs",
+  "repository": "https://github.com/Nero-Engine/nero-labs-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "csv",
+    "google sheets",
+    "dataset",
+    "data cleaning",
+    "ocr",
+    "pdf",
+    "screenshots",
+    "transcription",
+    "pagespeed",
+    "apify"
+  ]
+}
