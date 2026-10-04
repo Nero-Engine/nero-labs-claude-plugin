@@ -1,8 +1,8 @@
 {
   "name": "nero-labs",
   "displayName": "Nero Labs Data Tools",
-  "version": "1.1.0",
-  "description": "38 bulk data tools for spreadsheets, Google Sheets and Apify datasets: filter, clean, join, pivot and diff data; OCR and PDF text; screenshots, PageSpeed and tech stack; find contact emails; validate emails and phones; WHOIS; AI enrichment and charts; transcribe and score calls; UK company checks and registry monitors. Runs on Nero Labs Apify Actors, paid per result.",
+  "version": "1.2.0",
+  "description": "39 bulk data tools for spreadsheets, Google Sheets and Apify datasets: filter, clean, join, pivot and diff data; OCR and PDF text; screenshots, PageSpeed and tech stack; find contact emails; validate emails and phones; WHOIS; AI enrichment and charts; enrich job posts with salary, seniority, remote and visa; transcribe and score calls; UK company checks and registry monitors. Runs on Nero Labs Apify Actors, paid per result.",
   "author": {
     "name": "Nero Labs",
     "url": "https://apify.com/nerolabs"
