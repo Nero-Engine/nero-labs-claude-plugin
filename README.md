@@ -20,6 +20,7 @@ Bulk jobs on spreadsheets, Google Sheets and Apify datasets, done from a convers
 | Check PageSpeed and Core Web Vitals of many sites | `check-website-speed` | [Bulk PageSpeed & Lighthouse Checker](https://apify.com/nerolabs/bulk-pagespeed-checker) | $0.005 per report |
 | Upscale images 2x to 4x with AI | `upscale-images` | [Bulk AI Image Upscaler](https://apify.com/nerolabs/bulk-image-upscaler) | $0.015 per image |
 | Score and review phone calls | `score-call-recordings` | [Call Score](https://apify.com/nerolabs/call-score) | $0.04 per call minute |
+| Enrich job posts: salary, seniority, remote, visa, skills | `enrich-job-posts` | [Job Post Enricher](https://apify.com/nerolabs/job-post-enricher) | $0.003 per job |
 | Find contact emails, phones and socials on websites | `find-website-contact-details` | [Website Email Extractor, Phone & Contact Finder (CSV, Sheet)](https://apify.com/nerolabs/website-contact-finder) | $0.02 per website contact |
 | Validate an email list before sending | `validate-email-list` | [Bulk Email Validator & List Cleaner: MX, Disposable & Typos](https://apify.com/nerolabs/email-list-cleaner) | $0.002 per address |
 | Validate and format phone numbers | `validate-phone-numbers` | [Bulk Phone Number Validator & Cleaner: Carrier, CSV or Sheet](https://apify.com/nerolabs/phone-number-validator) | $0.002 per phone number |
@@ -67,7 +68,7 @@ Runs are billed per result to **your own Apify account** at the Actor's pay-per-
 
 The plugin itself stores nothing and contains no code: it is instructions (skills) plus one connector.
 
-- **Connector:** Apify's hosted MCP server at `mcp.apify.com`, limited to the 38 Nero Labs Actors listed above. You sign in to it with Apify OAuth. Claude sends the inputs you give (dataset IDs, file and sheet links, lists of URLs, inline rows) to Apify, which runs the Actor in your Apify account and stores the results in your account's datasets and key-value stores, under your Apify data retention settings.
+- **Connector:** Apify's hosted MCP server at `mcp.apify.com`, limited to the 39 Nero Labs Actors listed above. You sign in to it with Apify OAuth. Claude sends the inputs you give (dataset IDs, file and sheet links, lists of URLs, inline rows) to Apify, which runs the Actor in your Apify account and stores the results in your account's datasets and key-value stores, under your Apify data retention settings.
 - **Links you supply:** the Actors download the files, sheets, websites and media you point them at.
 - **Outside services used by some Actors:**
   - Bulk Transcription and Call Score send the audio of your recordings to OpenAI's speech and language API (`api.openai.com`) to transcribe and review them.
