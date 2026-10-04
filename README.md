@@ -21,6 +21,7 @@ Bulk jobs on spreadsheets, Google Sheets and Apify datasets, done from a convers
 | Upscale images 2x to 4x with AI | `upscale-images` | [Bulk AI Image Upscaler](https://apify.com/nerolabs/bulk-image-upscaler) | $0.015 per image |
 | Score and review phone calls | `score-call-recordings` | [Call Score](https://apify.com/nerolabs/call-score) | $0.04 per call minute |
 | Enrich job posts: salary, seniority, remote, visa, skills | `enrich-job-posts` | [Job Post Enricher](https://apify.com/nerolabs/job-post-enricher) | $0.003 per job |
+| Analyse reviews: sentiment, complaints, business reports, reply drafts | `analyze-customer-reviews` | [Review Analyzer](https://apify.com/nerolabs/review-analyzer) | $0.002 per review |
 | Find contact emails, phones and socials on websites | `find-website-contact-details` | [Website Email Extractor, Phone & Contact Finder (CSV, Sheet)](https://apify.com/nerolabs/website-contact-finder) | $0.02 per website contact |
 | Validate an email list before sending | `validate-email-list` | [Bulk Email Validator & List Cleaner: MX, Disposable & Typos](https://apify.com/nerolabs/email-list-cleaner) | $0.002 per address |
 | Validate and format phone numbers | `validate-phone-numbers` | [Bulk Phone Number Validator & Cleaner: Carrier, CSV or Sheet](https://apify.com/nerolabs/phone-number-validator) | $0.002 per phone number |
