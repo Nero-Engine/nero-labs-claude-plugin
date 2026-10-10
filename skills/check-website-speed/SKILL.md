@@ -16,7 +16,7 @@ Runs the Nero Labs Apify Actor `nerolabs/bulk-pagespeed-checker` (https://apify.
 
 ## What to pass
 
-- Source: `datasetId`, `fileUrl` or `data`. `urlField` detects the website column automatically; bare domains work.
+- Source: `urls` (a plain list of web addresses), `datasetId`, `fileUrl` or `data`. `urlField` detects the website column automatically; bare domains work.
 - `strategy`: `mobile` (default, what Google ranks on), `desktop` or `both` (two tests, two charges).
 - `categories`: which Lighthouse scores to return (same price either way).
 - `maxOpportunities`: how many speed fixes to list per page.

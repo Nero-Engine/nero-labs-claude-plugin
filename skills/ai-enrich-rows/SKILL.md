@@ -36,7 +36,7 @@ Runs the Nero Labs Apify Actor `nerolabs/dataset-ai-enrich` (https://apify.com/n
 
 Billed per event to the user's Apify account at the Actor's listed price. The user pays nothing else: no compute or proxy charges on top. Prices below are the Free plan rate; paid Apify plans get tier discounts. New Apify accounts include free monthly credit.
 
-- $0.005 per row enriched, plus the AI tokens billed through Apify's OpenRouter Actor (about $0.001 per row on Haiku on paid Apify plans; free Apify plans pay about 10x the token rate). 1,000 rows = about $6 on a paid plan.
+- $0.002 per row enriched (10 to 30% less on bigger Apify plans), plus the AI tokens billed through Apify's OpenRouter Actor (about $0.001 per row on Haiku on paid Apify plans; free Apify plans pay about 10x the token rate). 1,000 rows = about $3 on a paid plan.
 - $0.01 per exported file, $0.02 per webhook delivery.
 
 Before a run likely to cost more than about $1, tell the user the estimate in one line and set a cap (`maxRows`) so the bill cannot run away.
