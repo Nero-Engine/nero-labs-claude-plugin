@@ -9,6 +9,7 @@ Bulk jobs on spreadsheets, Google Sheets and Apify datasets, done from a convers
 | Keep only rows that match a rule, sort, take the top N | `filter-dataset-rows` | [Dataset Filter & Transform](https://apify.com/nerolabs/dataset-filter-transform) | $0.002 per row kept |
 | Remove duplicates and clean a messy list | `clean-and-dedupe-data` | [Dataset Cleaner & Exporter](https://apify.com/nerolabs/dataset-cleaner-exporter) | $0.002 per record |
 | VLOOKUP or join two lists on a key | `join-two-datasets` | [Dataset Join & Merge](https://apify.com/nerolabs/dataset-join-merge) | $0.002 per joined row |
+| Get the full text, author and date of every article in a list of news or blog links | `extract-article-text` | [Bulk Article Extractor](https://apify.com/nerolabs/bulk-article-extractor) | $0.002 per article |
 | Merge many lists or scraper runs and remove duplicates across them | `merge-datasets-remove-duplicates` | [Merge Datasets & Remove Duplicates](https://apify.com/nerolabs/dataset-merge-dedupe) | $0.001 per merged row |
 | Count, sum, average per group, pivot tables | `group-by-and-pivot` | [Dataset Aggregate, Group By & Pivot](https://apify.com/nerolabs/dataset-aggregate-pivot) | $0.001 per input row |
 | Show only new or changed rows since last time | `find-new-or-changed-rows` | [Dataset Diff & Change Detector](https://apify.com/nerolabs/dataset-diff-detector) | $0.005 per difference |
