@@ -1,14 +1,15 @@
 ---
 name: upscale-images
-description: Upscale many images at once 2x, 3x or 4x with AI (Real-ESRGAN) and get a public link to each sharper, larger image. Use when the user asks to upscale or enhance low-resolution product photos, catalogue images, property photos or scraped images in a sheet, CSV, list or dataset, or to make small images print or web ready.
+description: Upscale and restore images 2x, 3x or 4x with AI (Real-ESRGAN), with faces repaired (GFPGAN), and get a public link to each sharper, larger image. Use when the user asks to upscale, enhance or fix blurry, low-resolution or old photos, portraits, team or profile photos, product photos, property photos or scraped images, one link or many in a sheet, CSV, list or dataset.
 ---
 
-# Bulk AI Image Upscaler
+# AI Image Upscaler & Photo Restorer
 
 Runs the Nero Labs Apify Actor `nerolabs/bulk-image-upscaler` (https://apify.com/nerolabs/bulk-image-upscaler) through the connector tool `nerolabs--bulk-image-upscaler`.
 
 ## Use it for requests like
 
+- "Fix this blurry photo of my grandparents"
 - "Upscale every product photo in this sheet 4x"
 - "Make these small images sharper"
 - "Enhance the low-res images from this scraper run"
@@ -18,6 +19,7 @@ Runs the Nero Labs Apify Actor `nerolabs/bulk-image-upscaler` (https://apify.com
 
 - Source: `fileUrl`, `datasetId`, `imageUrls` (a plain list) or `data`. `urlField` detects the link column automatically.
 - `scale`: `"4"`, `"3"` or `"2"` (same price).
+- `fixFaces` (default true): repairs up to the 3 largest faces per photo at no extra cost; set false for pure product shots.
 - `outputFormat`: `auto` (keeps transparency), `jpg`, `png` or `webp`.
 - `skipIfLongEdgeAtLeast`: skip, free, images already big enough.
 - `maxInputMegapixels`: large inputs are shrunk first so the charge stays small.
@@ -44,4 +46,4 @@ Before a run likely to cost more than about $1, tell the user the estimate in on
 
 ## What comes back
 
-Each row with the upscaled image's public link and its new dimensions. Results land in an Apify dataset the user owns, so they can also open or export them in the Apify Console.
+Each row with the upscaled image's public link, its new dimensions and how many faces were repaired (`facesFixed`). Results land in an Apify dataset the user owns, so they can also open or export them in the Apify Console.

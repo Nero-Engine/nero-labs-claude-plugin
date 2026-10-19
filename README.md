@@ -20,7 +20,7 @@ Bulk jobs on spreadsheets, Google Sheets and Apify datasets, done from a convers
 | Download every image or file in a list | `download-files-from-links` | [Bulk Image & File Downloader](https://apify.com/nerolabs/bulk-file-downloader) | $0.004 per file |
 | Transcribe audio and video | `transcribe-audio-and-video` | [Bulk Transcription](https://apify.com/nerolabs/bulk-transcription) | $0.01 per minute |
 | Check PageSpeed and Core Web Vitals of many sites | `check-website-speed` | [Bulk PageSpeed & Lighthouse Checker](https://apify.com/nerolabs/bulk-pagespeed-checker) | $0.005 per report |
-| Upscale images 2x to 4x with AI | `upscale-images` | [Bulk AI Image Upscaler](https://apify.com/nerolabs/bulk-image-upscaler) | $0.015 per image |
+| Upscale and restore photos 2x to 4x with AI, faces repaired | `upscale-images` | [AI Image Upscaler & Photo Restorer](https://apify.com/nerolabs/bulk-image-upscaler) | $0.015 per image |
 | Score and review phone calls | `score-call-recordings` | [Call Score](https://apify.com/nerolabs/call-score) | $0.04 per call minute |
 | Enrich job posts: salary, seniority, remote, visa, skills | `enrich-job-posts` | [Job Post Enricher](https://apify.com/nerolabs/job-post-enricher) | $0.003 per job |
 | Analyse reviews: sentiment, complaints, business reports, reply drafts | `analyze-customer-reviews` | [Review Analyzer](https://apify.com/nerolabs/review-analyzer) | $0.002 per review |
