@@ -10,12 +10,14 @@ Bulk jobs on spreadsheets, Google Sheets and Apify datasets, done from a convers
 | Remove duplicates and clean a messy list | `clean-and-dedupe-data` | [Dataset Cleaner & Exporter](https://apify.com/nerolabs/dataset-cleaner-exporter) | $0.002 per record |
 | VLOOKUP or join two lists on a key | `join-two-datasets` | [Dataset Join & Merge](https://apify.com/nerolabs/dataset-join-merge) | $0.002 per joined row |
 | Get the full text, author and date of every article in a list of news or blog links | `extract-article-text` | [Bulk Article Extractor](https://apify.com/nerolabs/bulk-article-extractor) | $0.002 per article |
+| Read many RSS feeds or websites and get only the new posts | `read-rss-feeds` | [RSS Feed Reader](https://apify.com/nerolabs/rss-feed-reader) | $0.001 per item |
 | Merge many lists or scraper runs and remove duplicates across them | `merge-datasets-remove-duplicates` | [Merge Datasets & Remove Duplicates](https://apify.com/nerolabs/dataset-merge-dedupe) | $0.001 per merged row |
 | Count, sum, average per group, pivot tables | `group-by-and-pivot` | [Dataset Aggregate, Group By & Pivot](https://apify.com/nerolabs/dataset-aggregate-pivot) | $0.001 per input row |
 | Show only new or changed rows since last time | `find-new-or-changed-rows` | [Dataset Diff & Change Detector](https://apify.com/nerolabs/dataset-diff-detector) | $0.005 per difference |
 | Read text from images and scanned PDFs (OCR) | `ocr-images-and-scanned-pdfs` | [Bulk OCR](https://apify.com/nerolabs/bulk-ocr-image-pdf-to-text) | $0.005 per page |
 | Pull text and tables out of PDFs | `extract-text-from-pdfs` | [PDF Extractor](https://apify.com/nerolabs/dataset-pdf-extract) | $0.01 per PDF |
-| Screenshot every website in a list | `screenshot-websites` | [Bulk Website Screenshots](https://apify.com/nerolabs/bulk-website-screenshots) | $0.004 per screenshot |
+| Screenshot every website in a list | `screenshot-websites` | [Website Screenshot Tool](https://apify.com/nerolabs/bulk-website-screenshots) | $0.002 per screenshot |
+| SEO audit every website in a list | `seo-audit-websites` | [SEO Audit Tool](https://apify.com/nerolabs/bulk-seo-audit) | $0.005 per page |
 | Send each row to an API or webhook | `send-api-requests` | [HTTP Request Sender](https://apify.com/nerolabs/dataset-to-rest-api) | $0.005 per request |
 | Download every image or file in a list | `download-files-from-links` | [Bulk Image & File Downloader](https://apify.com/nerolabs/bulk-file-downloader) | $0.004 per file |
 | Transcribe audio and video | `transcribe-audio-and-video` | [Bulk Transcription](https://apify.com/nerolabs/bulk-transcription) | $0.01 per minute |

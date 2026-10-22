@@ -3,7 +3,7 @@ name: screenshot-websites
 description: Take screenshots of many websites at once, desktop and or mobile, with cookie banners hidden, and get a public image link for each. Use when the user asks to screenshot every site in a sheet, CSV, list or Google Maps scraper dataset, for outreach videos, website audits, lead lists, competitor research or a visual check of many homepages.
 ---
 
-# Bulk Website Screenshots
+# Website Screenshot Tool: Bulk from CSV, Google Sheet or Dataset
 
 Runs the Nero Labs Apify Actor `nerolabs/bulk-website-screenshots` (https://apify.com/nerolabs/bulk-website-screenshots) through the connector tool `nerolabs--bulk-website-screenshots`.
 
@@ -38,8 +38,8 @@ Runs the Nero Labs Apify Actor `nerolabs/bulk-website-screenshots` (https://apif
 
 Billed per event to the user's Apify account at the Actor's listed price. The user pays nothing else: no compute or proxy charges on top. Prices below are the Free plan rate; paid Apify plans get tier discounts. New Apify accounts include free monthly credit.
 
-- $0.004 per screenshot stored. 500 sites on desktop only = about $2. Dead, blocked or repeated sites are never charged.
-- $0.001 per run start, $0.01 per exported file.
+- $0.002 per screenshot stored. 500 sites on desktop only = about $1. Dead, blocked or repeated sites are never charged.
+- $0.0005 per GB of run memory at start (about $0.001), $0.01 per exported file.
 
 Before a run likely to cost more than about $1, tell the user the estimate in one line and set a cap (`maxItems`) so the bill cannot run away.
 
