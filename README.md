@@ -18,11 +18,9 @@ Bulk jobs on spreadsheets, Google Sheets and Apify datasets, done from a convers
 | Pull text and tables out of PDFs | `extract-text-from-pdfs` | [PDF Extractor](https://apify.com/nerolabs/dataset-pdf-extract) | $0.01 per PDF |
 | Screenshot every website in a list | `screenshot-websites` | [Website Screenshot Tool](https://apify.com/nerolabs/bulk-website-screenshots) | $0.002 per screenshot |
 | SEO audit every website in a list | `seo-audit-websites` | [SEO Audit Tool](https://apify.com/nerolabs/bulk-seo-audit) | $0.005 per page |
-| Send each row to an API or webhook | `send-api-requests` | [HTTP Request Sender](https://apify.com/nerolabs/dataset-to-rest-api) | $0.005 per request |
 | Download every image or file in a list | `download-files-from-links` | [Bulk Image & File Downloader](https://apify.com/nerolabs/bulk-file-downloader) | $0.004 per file |
 | Transcribe audio and video | `transcribe-audio-and-video` | [Bulk Transcription](https://apify.com/nerolabs/bulk-transcription) | $0.01 per minute |
 | Check PageSpeed and Core Web Vitals of many sites | `check-website-speed` | [Bulk PageSpeed & Lighthouse Checker](https://apify.com/nerolabs/bulk-pagespeed-checker) | $0.005 per report |
-| Upscale and restore photos 2x to 4x with AI, faces repaired | `upscale-images` | [AI Image Upscaler & Photo Restorer](https://apify.com/nerolabs/bulk-image-upscaler) | $0.015 per image |
 | Score and review phone calls | `score-call-recordings` | [Call Score](https://apify.com/nerolabs/call-score) | $0.04 per call minute |
 | Enrich job posts: salary, seniority, remote, visa, skills | `enrich-job-posts` | [Job Post Enricher](https://apify.com/nerolabs/job-post-enricher) | $0.003 per job |
 | Analyse reviews: sentiment, complaints, business reports, reply drafts | `analyze-customer-reviews` | [Review Analyzer](https://apify.com/nerolabs/review-analyzer) | $0.002 per review |
@@ -38,15 +36,12 @@ Bulk jobs on spreadsheets, Google Sheets and Apify datasets, done from a convers
 | Classify, tag or extract from every row with AI | `ai-enrich-rows` | [Dataset AI Enrichment: Bulk LLM & GPT Classify and Extract](https://apify.com/nerolabs/dataset-ai-enrich) | $0.005 per row enriched |
 | Make charts and a PDF report from data | `make-charts-and-pdf-report` | [Chart Generator & PDF Report from Any Dataset, CSV or JSON](https://apify.com/nerolabs/dataset-charts-report) | $0.03 per chart |
 | Load data into Postgres, Supabase or MySQL | `push-data-to-database` | [Dataset to Postgres, Supabase & MySQL (Database Push)](https://apify.com/nerolabs/dataset-to-database) | $0.002 per row written |
-| Chain several Apify Actors in one run | `chain-apify-actors` | [Actor Pipeline Runner (Chain Actors in One Run)](https://apify.com/nerolabs/actor-pipeline-runner) | $0.05 per pipeline run |
 | Check if a UK business or trader is legit | `verify-uk-business` | [UK Business Trust Check: Verify Any UK Company or Trader](https://apify.com/nerolabs/uk-business-trust-check) | $0.05 per business checked |
 | Full risk report on a UK company | `uk-company-risk-report` | [UK Company Risk Report (Companies House + Gazette)](https://apify.com/nerolabs/uk-company-risk-report) | $0.5 per risk report delivered |
 | Watch UK companies for new filings and director changes | `monitor-uk-companies-house` | [UK Companies House Monitor: Filings, Directors & PSC Alerts](https://apify.com/nerolabs/uk-companies-house-monitor) | $0.01 per company lookup |
 | Alerts on new SEC filings (8-K, Form 4, 13D) | `monitor-sec-filings` | [SEC Filings Monitor: EDGAR 8-K, Form 4 Insider & 13D Alerts](https://apify.com/nerolabs/sec-edgar-filing-monitor) | $0.1 per result |
 | Look up or watch Irish companies | `ireland-company-lookup` | [Ireland CRO Company Registry Lookup & Monitor: Filing Alerts](https://apify.com/nerolabs/ireland-cro-monitor) | $0.01 per company lookup |
 | Look up or watch Polish companies (KRS) | `poland-company-lookup` | [Poland KRS Company Registry Lookup & Monitor (KYB)](https://apify.com/nerolabs/poland-krs-monitor) | $0.01 per company record returned |
-| Amazon Buy Box price, seller and stock | `amazon-price-buybox-check` | [Amazon Buy Box & Price Monitor: Seller, Stock & Price Tracker](https://apify.com/nerolabs/amazon-buybox-monitor) | $0.012 per product lookup |
-| Depop listings and new-listing alerts | `depop-listings-monitor` | [Depop Scraper & Monitor: New Listings, Price & Sold Alerts](https://apify.com/nerolabs/depop-marketplace-monitor) | $0.015 per listing check |
 | UK self-storage prices and offers | `uk-self-storage-prices` | [UK Self-Storage Price & Offer Monitor](https://apify.com/nerolabs/uk-storage-price-monitor) | $0.1 per store checked (one-time lookup) |
 | Find the nearest UK tip for a postcode | `find-uk-tip-recycling-centre` | [UK Waste & Tip Finder](https://apify.com/nerolabs/uk-waste-tip-finder) | $0.02 per site found |
 | FFXIV market board prices and deal alerts | `ffxiv-market-prices` | [FFXIV Market Board Price Checker + Deal Monitor](https://apify.com/nerolabs/ffxiv-market-monitor) | $0.01 per item price checked |
@@ -86,8 +81,8 @@ The plugin itself stores nothing and contains no code: it is instructions (skill
   - Dataset to Postgres, Supabase & MySQL writes your rows into the database you choose, with the connection string you give it.
   - Dataset AI Enrichment and the Chart Generator's optional summary send row text to AI models through Apify's OpenRouter Actor (openrouter.ai).
   - Website Contact Finder, Tech Stack Detector and UK Business Trust Check read the public websites you list; Trust Check and the company tools query official registers (Companies House, The Gazette, UK Sanctions List, Food Standards Agency, Ireland CRO, Poland KRS, SEC EDGAR).
-  - The monitors read their public sources (Amazon, Depop, Big Yellow, Shurgard, Universalis, OpenStreetMap, Irish DFA passport tracker, USCIS, Australian Home Affairs, Immigration New Zealand), some through Apify's proxy.
-  - The data tools (filter, clean, join, pivot, diff, OCR, PDF, screenshots, downloads, upscaling, email and phone validation, WHOIS, pipeline runner) work inside the Apify run, apart from reading the links, domains and DNS records you give them.
+  - The monitors read their public sources (Big Yellow, Shurgard, Universalis, OpenStreetMap, Irish DFA passport tracker, USCIS, Australian Home Affairs, Immigration New Zealand), some through Apify's proxy.
+  - The data tools (filter, clean, join, pivot, diff, OCR, PDF, screenshots, downloads, email and phone validation, WHOIS) work inside the Apify run, apart from reading the links, domains and DNS records you give them.
 - Nero Labs, the publisher, receives the usual Apify developer statistics (run counts and charges), not your data.
 
 Full privacy policy: [PRIVACY.md](PRIVACY.md).
